@@ -1,0 +1,5 @@
+archivo_preguntas: preguntas.txt
+cant_preguntas: 2
+tiempo_inicio: 15
+tiempo_respuesta: 15
+puerto: 6600

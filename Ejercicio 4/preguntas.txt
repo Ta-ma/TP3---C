@@ -1,0 +1,25 @@
+P: ¿Qué tipo de interrupción es un stack overflow?
+R: Software
+RC: Hardware – Interna
+R: Hardware – Externa
+R: Ninguna de las anteriores
+P: ¿Cuánto te sacaste en el parcial?
+R: 2
+R: 2
+R: 2
+RC: Todas las respuestas anteriores son correctas
+P: ¿Cuál de estos no es un algoritmo de planificación de corto plazo?
+RC: SJF
+R: HRRN
+R: SPF
+R: FCFS
+P: ¿Cuál de estas técnicas de administración de memoria emplea swapping?
+R: Máquina desnuda
+RC: Paginación bajo demanda
+R: Paginación simple
+R: Segmentación
+P: ¿Cuál es la capital de australia?
+R: Sydney
+R: Melbourne
+R: Round Robin
+RC: Ninguna de las anteriores

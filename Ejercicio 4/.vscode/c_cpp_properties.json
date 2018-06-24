@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "linux",
+            "includePath": [
+                "/usr/include"
+            ],
+            "browse": {
+                "path": [
+                    "/usr/include"
+                ]
+            },
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
