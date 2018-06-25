@@ -35,3 +35,4 @@ class Listener {
 // Funciones
 vector<string> parse(string str, const string& delimitador);
 string trim(const string& str, const string& whitespace);
+int host_a_ip(string host, string* ip);

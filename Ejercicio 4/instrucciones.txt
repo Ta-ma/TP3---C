@@ -1,0 +1,9 @@
+Desde una terminal, ubicarse dentro de esta misma carpeta y luego:
+
+Para compilar el servidor: make servidor
+
+Para compilar el cliente: make cliente
+
+Para compilar ambos: make todo
+
+Una vez compilados, ejecutar ./servidor.exe -help y ./cliente.exe -help para ver como utilizar los programas.

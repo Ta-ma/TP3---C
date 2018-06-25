@@ -48,11 +48,16 @@ int main(int argc, char const *argv[]) {
   memset(&serv_addr, '0', sizeof(serv_addr));
   serv_addr.sin_family = AF_INET;
   serv_addr.sin_port = htons(atoi(puerto.c_str()));
-  if(inet_pton(AF_INET, ip.c_str(), &serv_addr.sin_addr) <= 0) {
+  if (inet_pton(AF_INET, ip.c_str(), &serv_addr.sin_addr) <= 0) {
     // si esto falla puede ser porque el flaco pasó el nombre de maquina por parámetro
-
-    cerr << "Error al intentar asignar la dirección IP." << endl;
-    return -1;
+    string ip_host;
+    if (host_a_ip(ip, &ip_host) < 0) {
+      cerr << "Error al intentar asignar la dirección IP del servidor." << endl;
+      cerr << "Este error ocurre porque se ingresó un número de IP o nombre de máquina no válido." << endl;
+      return -1;
+    } else if (inet_pton(AF_INET, ip_host.c_str(), &serv_addr.sin_addr) <= 0) {
+      cerr << "Error al intentar asignar la dirección IP del servidor." << endl;
+    }
   }
   if (connect(sock, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0) {
     cerr << "Error al conectar con el servidor." << endl;

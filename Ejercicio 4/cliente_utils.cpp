@@ -29,6 +29,16 @@ vector<string> parse(string str, const string& delimitador) {
   return muestras;
 }
 
+int host_a_ip(string host, string* ip) {
+    struct hostent* he;
+    struct in_addr** addr_list;
+
+    if ((he = gethostbyname(host.c_str())) == NULL) return -1;
+    addr_list = (struct in_addr**) he -> h_addr_list;
+    *ip = string(inet_ntoa(*addr_list[0]));
+    return 1;
+}
+
 // Listener
 Listener::Listener() {}
 
