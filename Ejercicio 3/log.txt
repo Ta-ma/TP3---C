@@ -1,0 +1,10 @@
+Fri Jul 13 00:07:33 2018
+
+Revisando fifo: /tmp/fifo
+El fifo contiene lo siguiente: 
+Buffer: 12345678wachin
+Etiqueta: 12345678
+Cadena: wachin
+Fri Jul 13 00:07:46 2018
+
+Revisando fifo: /tmp/fifo

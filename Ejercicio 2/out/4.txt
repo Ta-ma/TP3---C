@@ -1,0 +1,6 @@
+Hora inicio: Tue Jul 10 01:51:56 2018
+Thread N°1
+Vocales: 6
+Consonantes: 9
+Otros: 6
+Hora fin: Tue Jul 10 01:51:56 2018

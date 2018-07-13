@@ -1,4 +1,5 @@
 #include "servidor.hpp"
+#include <thread>
 using namespace std;
 using namespace chrono;
 
@@ -124,7 +125,7 @@ int main (int argc, char **argv) {
   if (argc == 2) {
     // si hay 2 parámetros, el segundo puede ser -help o archivo de config
     string param(argv[1]);
-    if (param == "-help") {
+    if (param == "-help" || param == "-h" || param == "-?") {
       cout << "Hay 3 formas de llamar a este programa:" << endl;
       cout << "./servidor.exe" << endl;
       cout << "El programa buscará el archivo de configuración por defecto llamado config.txt y tomará de allí los parámetros." << endl;
@@ -150,7 +151,7 @@ int main (int argc, char **argv) {
     config["tiempo_inicio"] = string(argv[4]);
     config["tiempo_respuesta"] = string(argv[5]);
   } else if (argc != 1) {
-    cerr << "Error en la cantidad de parámetros enviados, utilice -help.";
+    cerr << "Error en la cantidad de parámetros enviados, utilice -help." << endl;
     return -1;
   }
 

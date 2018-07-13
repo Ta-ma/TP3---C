@@ -35,7 +35,7 @@ int main(int argc, char const *argv[]) {
     puerto = string(argv[2]);
     nombre = string(argv[3]);
   } else {
-    cerr << "Error en la cantidad de parámetros enviados, utilice -help.";
+    cerr << "Error en la cantidad de parámetros enviados, utilice -help." << endl;
     return -1;
   }
   

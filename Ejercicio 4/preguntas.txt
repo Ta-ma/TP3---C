@@ -18,7 +18,7 @@ R: Máquina desnuda
 RC: Paginación bajo demanda
 R: Paginación simple
 R: Segmentación
-P: ¿Cuál es la capital de australia?
+P: ¿Cuál es la capital de Australia?
 R: Sydney
 R: Melbourne
 R: Round Robin

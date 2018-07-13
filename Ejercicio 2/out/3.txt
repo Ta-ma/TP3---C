@@ -1,0 +1,6 @@
+Hora inicio: Tue Jul 10 01:51:56 2018
+Thread N°3
+Vocales: 0
+Consonantes: 4
+Otros: 8
+Hora fin: Tue Jul 10 01:51:56 2018
