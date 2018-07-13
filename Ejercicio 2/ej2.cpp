@@ -17,6 +17,17 @@
 using namespace std;
 using namespace std::chrono;
 
+/*  
+    Nombre del archivo: ej2.cpp
+    Trabajo Práctico 3 - Ejercicio 2
+    Grupo: 12
+    Gómez Markowicz, Federico - 38858109
+    Kuczerawy, Damián - 37807869
+    Mediotte, Facundo - 39436162
+    Siculin, Luciano - 39213320
+    Tamashiro, Santiago - 39749147
+*/
+
 int vocales[] = {65, 97, 69, 101, 73, 105, 79, 111, 85, 117};
 string p_in, p_out, primer_archivo, ult_archivo;
 int n = 0, archivos_analizados = 0;

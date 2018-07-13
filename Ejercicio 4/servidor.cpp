@@ -3,6 +3,17 @@
 using namespace std;
 using namespace chrono;
 
+/*  
+    Nombre del archivo: servidor.cpp
+    Trabajo Práctico 3 - Ejercicio 4
+    Grupo: 12
+    Gómez Markowicz, Federico - 38858109
+    Kuczerawy, Damián - 37807869
+    Mediotte, Facundo - 39436162
+    Siculin, Luciano - 39213320
+    Tamashiro, Santiago - 39749147
+*/
+
 vector<unique_ptr<Cliente>> clientes;
 string nombre_ganador = "yo";
 int id_ganador = 0;

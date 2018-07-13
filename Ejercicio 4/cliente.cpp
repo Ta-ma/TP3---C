@@ -1,6 +1,17 @@
 #include "cliente.hpp"
 using namespace std;
 
+/*  
+    Nombre del archivo: cliente.cpp
+    Trabajo Práctico 3 - Ejercicio 4
+    Grupo: 12
+    Gómez Markowicz, Federico - 38858109
+    Kuczerawy, Damián - 37807869
+    Mediotte, Facundo - 39436162
+    Siculin, Luciano - 39213320
+    Tamashiro, Santiago - 39749147
+*/
+
 unique_ptr<Listener> listener;
 // función para cerrar la aplicación
 void terminar (int signum) {

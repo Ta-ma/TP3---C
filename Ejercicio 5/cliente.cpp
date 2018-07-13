@@ -19,6 +19,17 @@ using namespace std;
 
 #define TAM 4096
 
+/*  
+    Nombre del archivo: cliente.cpp
+    Trabajo Práctico 3 - Ejercicio 5
+    Grupo: 12
+    Gómez Markowicz, Federico - 38858109
+    Kuczerawy, Damián - 37807869
+    Mediotte, Facundo - 39436162
+    Siculin, Luciano - 39213320
+    Tamashiro, Santiago - 39749147
+*/
+
 char* memoriaLeer();
 void memoriaEscribir(char* mensaje);
 char opcion;

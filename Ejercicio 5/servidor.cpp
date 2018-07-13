@@ -19,6 +19,17 @@ using namespace std;
 #define TAM 4096
 #define N 100
 
+/*  
+    Nombre del archivo: servidor.cpp
+    Trabajo Práctico 3 - Ejercicio 5
+    Grupo: 12
+    Gómez Markowicz, Federico - 38858109
+    Kuczerawy, Damián - 37807869
+    Mediotte, Facundo - 39436162
+    Siculin, Luciano - 39213320
+    Tamashiro, Santiago - 39749147
+*/
+
 char* encriptarFrase(char*);
 char* desencriptarFrase(char*);
 char* memoriaLeer();
